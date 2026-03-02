@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/Image20260225191240.jpg">
+    <div class = "input form">
+        <form action="{{url_for('predict')}}" method="post" id="input head">
+            <h1 id ="heading">Iris Prediction</h1>
+            <h3 id = "input">Enter your values here</h3>
+            <input type="text" name="Sepal length" placeholder="Sepal lenght">
+            <br>
+            <input type="text" name="Sepal width" placeholder="Sepal width">
+            <br>
+            <input type="text" name="Petal length" placeholder="Petal length">
+            <br>
+            <input type="text" name="Petal width" placeholder="Petal widht">
+            <br>
+            <br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        </form>
+    </div>
+    
+</body>
+</html>
